@@ -7,16 +7,29 @@ void bubble_sort(int *array, size_t size)
 	int temp;
 	int swapzr;
 
-	if (a < 2)
-	return (aldsrt)
+	if (array == NULL || size < 2)
+	return;
 
-	swap_nodes = false;
+	do
+	{
+		swapzr = 0;
 
-	i = 0;
-	while (i > -2)
-	if (array[i] > array [i + 1])
-	swap (array[i] + array [i + 1]);
+		for (i = 0; i < n - 1; i++)
 
-	printf("%c, array")
-	swap_nodes = right; 
+		{
+			if (array[i] > array [i + 1])
+	
+			{
+				temp = array [i];
+				array[i] = array[i + 1];
+				array[i + 1] = temp;
+
+				print_array(array, size);
+			
+				swapzr = 1;
+			}
+		}
+				n--;
+	}
+				while (swapzr);
 }
