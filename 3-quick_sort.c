@@ -2,7 +2,7 @@
 #include <stdlib.h>
 #include "sort.h"
 /**
- * lomuto_partition - Lomuto partition scheme
+ * lamuto_partition - Lomuto partition scheme
  * @array: Array to sort
  * @low: Lower bound index
  * @high: Upper bound index
